@@ -1,0 +1,21 @@
+.navIgator{
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    background-color: #fff;
+    z-index: 1;
+
+}
+.navItem{
+    width: 100%;
+    color: #666;
+}
+.active{
+    color: red;
+    border-bottom: 1px solid red;
+}

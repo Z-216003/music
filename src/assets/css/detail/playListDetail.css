@@ -1,0 +1,125 @@
+.playListDetail{
+    width: 100%;
+    height: auto;
+}
+.palyTitle{
+    width: 100%;
+    height: 13rem;
+    background-color: #776251;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.palyHeaderLink{
+    width: 100%;
+    display:block;
+}
+.palyTitle .palyHeader{
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    position: relative;
+}
+.palyTitle .palyHeader .palyHeaderLe{
+    position: absolute;
+    top: 0.3rem;
+    left: 5%;
+}
+.palyTitle .palyHeader .palyHeaderLe .palyHeaderLeIcon{
+    color: #fff;
+    font-size: 2rem;
+}
+.palyTitle .palyHeader .palyHeaderBill{
+    width: 100%;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 20%;
+}
+.playContentImg{
+    width: 100%;
+    height: auto;
+    padding: 1rem 0 0 1rem;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+}
+.playContentImg-le{
+    margin:0.2rem 1rem 0 0.2rem; /* x*100/(100-x); x值越大，误差越大。当x=3，宽度为500，误差在0.5px之内；*/
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+
+}
+.playContentImg-le .playContentImg-le-bar{
+    position: absolute;
+    top: 0;
+    left:0;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    height: 2rem;
+    line-height: 2rem;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: rgba(0,0,0,.2);
+}
+
+.playContentImg-le .playContentImg-le-item-img{
+    width: 100%;
+    height: 8rem;
+}
+.playContentImg-ri{
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    margin:0.5rem 0 0 0;
+    box-sizing: border-box;
+}
+.playList-content{
+    margin-top: 13rem;
+ }
+.playList-title{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    border-bottom: 1px solid #eee;
+    font-size: 1rem;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+.playList-title-icon{
+    margin-right: 2%;
+    font-size: 1rem;
+}
+/*歌曲列表*/
+.playList-listfile{
+    width: 100%;
+    height: auto;
+}
+.playList-listfile .playList-listfile-item{
+    display: flex;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding-left:5%;
+
+}
+.playList-listfile .playList-listfile-item .playList-listfile-item-num{
+    /*margin-right: 3%;*/
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.playList-listfile .playList-listfile-item .playList-listfile-item-num:before{
+
+}
+.playList-listfile .playList-listfile-item .playList-listfile-content{
+    width: 100%;
+    padding: 0 3% 0 3.5%;
+    font-size:1rem;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

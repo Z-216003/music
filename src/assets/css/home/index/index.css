@@ -1,0 +1,84 @@
+.wrapper{
+    width: 100%;
+    height: auto;
+
+}
+.g-title{
+    display: flex;
+    color: #333;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.9rem;
+    padding:0 0.2rem 0 0.2rem ;
+    box-sizing: border-box;
+}
+.Linkcolor{
+    color: #666;
+
+}
+.g-title .g-title-le-txt{
+    margin-left: 0.3rem;
+    font-size: 1rem;
+
+}
+.g-title .g-title-ri-txt{
+    font-size: 0.8rem;
+}
+.g-title .g-title-le{
+    flex: 1;
+ }
+.g-title .g-title-le-icon{
+    color: red;
+    font-size: 1rem;
+}
+.g-title .g-title-ri-icon{
+    font-size: 0.5rem;
+ }
+.LinkplayListDetail{
+    color: #666;
+    display: block;
+
+}
+.mu-flexbox{
+    width: 100%;
+    height: auto;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: wrap;*/
+    overflow: hidden;
+
+}
+.mu-flexbox-item{
+    margin:0.2rem 0.2rem; /* x*100/(100-x); x值越大，误差越大。当x=3，宽度为500，误差在0.5px之内；*/
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    width: 31.6%;
+}
+.mu-flexbox-item .bar{
+    position: absolute;
+    top: 0;
+    left:0;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: rgba(0,0,0,.2);
+}
+
+.mu-flexbox-item .item-img{
+    width: 100%;
+    height: 6rem;
+}
+.mu-flexbox-item .item-name{
+    width: 95%;
+    font-size: 0.6rem;
+    height: 2.2rem;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
